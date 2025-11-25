@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Lektion 7 </h1>
+    <div id="time"></div>
+    
+    
+    <div id="form-output">...</div>
+    <!--<form id="my-form" action="form-handler.php" method="post"> -->
+    <form>
+        Text input: <input class="inp" name="my-text" type="text">
+        Date input: <input class="inp" id="date" type="date">
+        Number input: <input class="inp" id="my-number" type="number">
+        Number input: <input class="inp" id="my-num" type="range" min="0"max="99" step="1">
+        Välj flera alternativ: <input class="inp" type="checkbox" value="ett">
+                                <input class="inp" type="checkbox" value="två">
+        Välj ett alternativ: <input class="inp" type="radio" name="my-radio" >
+                            <input class="inp" type="radio" name="my-radio">
+
+        Välj ett alternativ:
+        <select class="inp">
+            <option name="linux" id="linux">linux</option>
+            <option name="Windows" id="Windows">Windows</option>
+            <option name="Mac" id="Mac">Mac</option>
+        </select>
+        
+
+        Längre texter:
+        <textarea class="inp" id="txt"></textarea>
+
+        <button id="ok" type="button">Send</button>  
+    </form>
+
+
+    <script src="Script.js"></script>
+</body>
+</html>
